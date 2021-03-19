@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(180deg, #615dad, #ffc8da);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  color: whitesmoke;
+}
+
+.hlavnibox {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box1 {
+  background-color: #283e50;
+  padding: 15px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.tlacitko1 {
+  text-align: center;
+  background-color: #1fcca4;
+  height: 40px;
+  line-height: 10px;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 40px;
+}
+
+.tlacitko2 {
+  text-align: center;
+  background-color: #0197f6;
+  height: 40px;
+  line-height: 10px;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 40px;
+}
+
+h1 {
+  font-family: 'Lobster Two', cursive;
+  font-size: 40px;
+}
+
+a.tlacitko1:hover {
+  background-color: #1cbb96;
+}
+
+a.tlacitko2:hover {
+  background-color: #0090e9;
+}
