@@ -33,7 +33,6 @@ img {
   text-align: center;
   background-color: #1fcca4;
   height: 40px;
-  line-height: 10px;
   color: whitesmoke;
   text-decoration: none;
   font-size: 13px;
@@ -44,11 +43,11 @@ img {
   text-align: center;
   background-color: #0197f6;
   height: 40px;
-  line-height: 10px;
   color: whitesmoke;
   text-decoration: none;
   font-size: 13px;
   line-height: 40px;
+  border-top: #283e50 solid 1px;
 }
 
 h1 {
