@@ -9,7 +9,8 @@ body {
   line-height: 1.5;
   margin-bottom: 100px;
   margin-top: 50px;
-  color: whitesmoke;
+  color: white;
+  height: 100vh;
 }
 
 .hlavnibox {
@@ -21,7 +22,7 @@ body {
 .box1 {
   background-color: #283e50;
   padding: 15px;
-  color: whitesmoke;
+  color: white;
   text-align: center;
 }
 
@@ -33,7 +34,7 @@ img {
   text-align: center;
   background-color: #1fcca4;
   height: 40px;
-  color: whitesmoke;
+  color: white;
   text-decoration: none;
   font-size: 13px;
   line-height: 40px;
@@ -43,7 +44,7 @@ img {
   text-align: center;
   background-color: #0197f6;
   height: 40px;
-  color: whitesmoke;
+  color: white;
   text-decoration: none;
   font-size: 13px;
   line-height: 40px;
@@ -51,7 +52,7 @@ img {
 }
 
 h1 {
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Lobster', cursive;
   font-size: 40px;
 }
 
