@@ -1,16 +1,25 @@
-body {
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+.body {
   background: linear-gradient(180deg, #615dad, #ffc8da);
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   font-family: sans-serif;
   font-weight: 200;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.5;
   margin-bottom: 100px;
   margin-top: 50px;
   color: white;
   height: 100vh;
+}
+.body--long {
+  height: 100%;
 }
 
 .hlavnibox {
@@ -21,13 +30,21 @@ body {
 
 .box1 {
   background-color: #283e50;
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   color: white;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
   border-radius: 5px 5px 0 0;
+}
+
+.tlacitka {
+  display: flex;
+  flex-direction: column;
 }
 
 .tlacitko1 {
@@ -54,6 +71,8 @@ img {
 h1 {
   font-family: 'Lobster', cursive;
   font-size: 40px;
+  margin: 10px;
+  text-align: center;
 }
 
 a.tlacitko1:hover {
@@ -62,4 +81,71 @@ a.tlacitko1:hover {
 
 a.tlacitko2:hover {
   background-color: #0090e9;
+}
+
+ol {
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.instructions {
+  width: 80%;
+  border-radius: 0;
+}
+
+.box1--pravidla {
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+.ikony {
+  width: 1em;
+  height: 1em;
+  filter: invert(100%);
+}
+
+figure {
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+}
+
+@media (min-width: 650px) {
+  .hlavnibox--pravidla {
+    width: 640px;
+  }
+  .imageGalery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .instructions {
+    width: 100%;
+  }
+
+  .navod {
+    width: calc(40% - 1rem);
+    flex-grow: 1;
+  }
+}
+
+@media (min-width: 800px) {
+  .hlavnibox--pravidla {
+    width: 700px;
+  }
+  .imageGalery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .instructions {
+    width: 100%;
+  }
+
+  .navod {
+    width: calc(40% - 1rem);
+    flex-grow: 1;
+  }
 }
