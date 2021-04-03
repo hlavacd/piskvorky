@@ -89,7 +89,7 @@ ol {
   line-height: 1.5;
 }
 
-.instructions {
+.instrukce {
   width: 80%;
   border-radius: 0;
 }
@@ -121,7 +121,7 @@ figure {
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .instructions {
+  .instrukce {
     width: 100%;
   }
 
@@ -140,7 +140,7 @@ figure {
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .instructions {
+  .instrukce {
     width: 100%;
   }
 
