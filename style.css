@@ -112,6 +112,11 @@ figure {
   margin-inline-end: 10px;
 }
 
+figcaption {
+  font-style: italic;
+  font-size: 13px;
+}
+
 @media (min-width: 650px) {
   .hlavnibox--pravidla {
     width: 640px;
