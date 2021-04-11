@@ -16,11 +16,11 @@
   margin-bottom: 100px;
   margin-top: 50px;
   color: white;
-  height: 100vh;
+  min-height: 100vh;
 }
-.body--long {
+/* .body--long {
   height: 100%;
-}
+} */
 
 .hlavnibox {
   width: 300px;
@@ -153,4 +153,93 @@ figcaption {
     width: calc(40% - 1rem);
     flex-grow: 1;
   }
+}
+
+.hracibox {
+  max-width: 80vmin;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.hraciplocha {
+  display: flex;
+  flex-direction: column;
+}
+
+.jenatahu {
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.ikony--hra {
+  margin: 5px;
+}
+
+.kdohraje {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hracimenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tlacitka--hra {
+  display: flex;
+  flex-direction: row;
+}
+
+.tlacitkodomu {
+  text-align: center;
+  background-color: #1fcca4;
+  height: 30px;
+  width: 30px;
+  border-radius: 3px;
+  padding-top: 1.5px;
+  margin-right: 4px;
+}
+
+.tlacitkoznovu {
+  text-align: center;
+  background-color: #0197f6;
+  height: 30px;
+  width: 30px;
+  border-radius: 3px;
+  padding-top: 1.5px;
+}
+
+a.tlacitkodomu:hover {
+  background-color: #1cbb96;
+}
+
+a.tlacitkoznovu:hover {
+  background-color: #0090e9;
+}
+
+.hracipole {
+  display: flex;
+  padding-top: 10px;
+  flex-wrap: wrap;
+}
+
+button {
+  width: calc(80vmin / 10);
+  height: calc(80vmin / 10);
+  margin: 0;
+  padding: 0;
+  border: 0.5px solid black;
+  opacity: 40%;
+  color: white;
+}
+
+button:hover,
+button:focus {
+  color: white;
+  opacity: 50%;
 }
