@@ -234,12 +234,40 @@ button {
   margin: 0;
   padding: 0;
   border: 0.5px solid black;
-  opacity: 40%;
-  color: white;
+  background-color: rgb(255, 255, 255, 0.3);
+  /* opacity: 40%; */
+  /*color: white*/
+  display: flex;
 }
 
 button:hover,
 button:focus {
-  color: white;
-  opacity: 50%;
+  background-color: rgb(255, 255, 255, 0.1);
+}
+
+.board__field--circle {
+  background-image: url('podklady/circle.svg');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 50%;
+  animation-name: zvetsovani;
+  animation-duration: 0.15s;
+}
+
+.board__field--cross {
+  background-image: url('podklady/cross.svg');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 50%;
+  animation-name: zvetsovani;
+  animation-duration: 0.15s;
+}
+
+@keyframes zvetsovani {
+  0% {
+    background-size: 0%;
+  }
+  100% {
+    background-size: 65%;
+  }
 }
