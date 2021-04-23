@@ -1,8 +1,8 @@
 'use strict';
 console.log('funguju');
 
-const naTahuCircle = 'circle';
-const naTahuCross = 'cross';
+/* const naTahuCircle = 'circle';
+const naTahuCross = 'cross'; */
 
 const pridejTah = (event) => {
   const natahuElm = document.querySelector('#natahu');
