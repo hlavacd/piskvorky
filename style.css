@@ -263,6 +263,11 @@ button:focus {
   animation-duration: 0.15s;
 }
 
+.board__field--winner {
+  opacity: 80%;
+  background-color: darkmagenta;
+}
+
 @keyframes zvetsovani {
   0% {
     background-size: 0%;
